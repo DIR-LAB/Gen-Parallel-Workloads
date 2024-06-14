@@ -8,10 +8,10 @@ This table includes all the traces included in this repo and their download link
 
 | Original Job Traces | Metadata | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
 |----------|----------|----------|----------|----------|----------|----------|
-| [**BlueWater**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | **NCSA**, 10.5M Jobs, 26,864 Nodes, 396K Cores, 4,228 GPUs | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
-| **Theta** |**ALCF**, 522,858 Jobs, 4,392 Nodes, 281,088 Cores | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
-| **Helios** | **Sensetime**, 3.3M Jobs, 802 Nodes, 6,416 GPUs| Helios-GAN | Helios-CTGAN | Helios-TVAE | Helios-CG | Helios-CGAN|
-| **Philly** | **Microsoft**, 117,325 Jobs, 552 Nodes, 2,490 GPUs|Philly-GAN | Philly-CTGAN | Philly-TVAE | Philly-CG | Philly-CGAN|
+| [**BlueWater**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | **NCSA**, 26,864 Nodes, 396K Cores, 4,228 GPUs | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
+| **Theta** |**ALCF**, 4,392 Nodes, 281,088 Cores | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
+| **Helios** | **Sensetime**, 802 Nodes, 6,416 GPUs| Helios-GAN | Helios-CTGAN | Helios-TVAE | Helios-CG | Helios-CGAN|
+| **Philly** | **Microsoft**, 552 Nodes, 2,490 GPUs|Philly-GAN | Philly-CTGAN | Philly-TVAE | Philly-CG | Philly-CGAN|
 
 ## Structure
 
