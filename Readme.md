@@ -4,11 +4,10 @@ The Gen-Parallel-Workloads repository contains generated and training data for j
 
 | Job Traces | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
 |----------|----------|----------|----------|----------|----------|
-| BlueWater | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
+| [BlueWater](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
 | Theta | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
 | Helios | Helios-GAN | Helios-CTGAN | Helios-TVAE | Helios-CG | Helios-CGAN|
 | Philly | Philly-GAN | Philly-CTGAN | Philly-TVAE | Philly-CG | Philly-CGAN|
-|----------|----------|----------|----------|----------|----------|
 
 ## Structure
 
