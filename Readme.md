@@ -1,6 +1,14 @@
 ## Overview
 
-The Gen-Parallel-Workloads repository contains generated and training data for job traces from various high-performance computing clusters, including `BW`, `Theta`, `Philly`, `Helios`, `SDSC - 95`, designed to facilitate the development and comparison of machine learning models for synthetic job trace generation.
+The Gen-Parallel-Workloads repository contains generated and training data for job traces from various high-performance computing clusters, including `BW`, `Theta`, `Philly`, `Helios`, `SDSC - 95`, designed to facilitate the development and comparison of machine learning models for synthetic job trace generation. These data can be used for training and benchmarking various scheduling decisions.
+
+| Job Traces | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
+|----------|----------|----------|----------|----------|----------|
+| BlueWater | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
+| Theta | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
+| Helios | Helios-GAN | Helios-CTGAN | Helios-TVAE | Helios-CG | Helios-CGAN|
+| Philly | Philly-GAN | Philly-CTGAN | Philly-TVAE | Philly-CG | Philly-CGAN|
+|----------|----------|----------|----------|----------|----------|
 
 ## Structure
 
