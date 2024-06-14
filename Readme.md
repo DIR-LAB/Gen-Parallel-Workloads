@@ -4,7 +4,9 @@ The Gen-Parallel-Workloads repository contains generated and training data for j
 
 This table includes all the traces included in this repo and their download links. These data can be used for training and benchmarking various scheduling decisions.
 
-| Job Traces | Metadata | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
+**Notes that, all generated job traces have 15,000 jobs. The original job traces are also cut to the latest 15,000 jobs.**
+
+| Original Job Traces | Metadata | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
 |----------|----------|----------|----------|----------|----------|----------|
 | [**BlueWater**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | **NCSA**, 10.5M Jobs, 26,864 Nodes, 396K Cores, 4,228 GPUs | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
 | **Theta** |**ALCF**, 522,858 Jobs, 4,392 Nodes, 281,088 Cores | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
