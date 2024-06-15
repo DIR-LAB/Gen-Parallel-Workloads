@@ -1,17 +1,18 @@
 ## Overview
 
-The Gen-Parallel-Workloads repository contains generated and training data for job traces from various high-performance computing clusters, including `BW`, `Theta`, `Philly`, `Helios`, `SDSC - 95`, designed to facilitate the development and comparison of machine learning models for synthetic job trace generation. 
+The Gen-Parallel-Workloads repository contains generated and training data for job traces from various high-performance computing clusters, including `BW`, `Theta`, `Philly`, and `Helios`, designed to facilitate the comparison of machine learning models for synthetic job trace generation. 
 
 This table includes all the traces included in this repo and their download links. These data can be used for training and benchmarking various scheduling decisions.
 
 **Notes that, all generated job traces have 15,000 jobs. The original job traces are also cut to the latest 15,000 jobs.**
 
 | Original Job Traces | Metadata | GAN-Gen | CTGAN-Gen* | TVAE-Gen* | GC-Gen | CGAN-Gen |
-|----------|----------|----------|----------|----------|----------|----------|
-| [**BlueWater**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | **NCSA**, 26,864 Nodes, 396K Cores, 4,228 GPUs | BW-GAN | BW-CTGAN | BW-TVAE | BW-CG | BW-CGAN|
-| **Theta** |**ALCF**, 4,392 Nodes, 281,088 Cores | Theta-GAN | Theta-CTGAN | Theta-TVAE | Theta-CG | Theta-CGAN|
-| **Helios** | **Sensetime**, 802 Nodes, 6,416 GPUs| Helios-GAN | Helios-CTGAN | Helios-TVAE | Helios-CG | Helios-CGAN|
-| **Philly** | **Microsoft**, 552 Nodes, 2,490 GPUs|Philly-GAN | Philly-CTGAN | Philly-TVAE | Philly-CG | Philly-CGAN|
+|---------------------|----------|---------|------------|-----------|--------|----------|
+| [**BlueWater**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/training_data/blue_waters_data_training.csv) | **NCSA**, 26,864 Nodes, 396K Cores, 4,228 GPUs | [BW-GAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/generated_data/synthetic_data_gan_bw.csv) | [BW-CTGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/generated_data/synthetic_data_ctgan_bw.csv) | [BW-TVAE](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/generated_data/synthetic_data_tvae_bw.csv) | [BW-GC](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/generated_data/synthetic_data_gc_bw.csv) | [BW-CGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/BW/generated_data/synthetic_data_cg_bw.csv)|
+| [**Theta**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/training_data/theta_data_training.csv) | **ALCF**, 4,392 Nodes, 281,088 Cores | [Theta-GAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/generated_data/synthetic_data_gan_theta.csv) | [Theta-CTGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/generated_data/synthetic_data_ctgan_theta.csv) | [Theta-TVAE](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/generated_data/synthetic_data_tvae_theta.csv) | [Theta-GC](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/generated_data/synthetic_data_gc_theta.csv) | [Theta-CGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Theta/generated_data/synthetic_data_cg_theta.csv)|
+| [**Helios**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/training_data/helios_data_training.csv) | **Sensetime**, 802 Nodes, 6,416 GPUs | [Helios-GAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/generated_data/synthetic_data_gan_helios.csv) | [Helios-CTGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/generated_data/synthetic_data_ctgan_helios.csv) | [Helios-TVAE](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/generated_data/synthetic_data_tvae_helios.csv) | [Helios-GC](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/generated_data/synthetic_data_gc_helios.csv) | [Helios-CGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Helios/generated_data/synthetic_data_cg_helios.csv)|
+| [**Philly**](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/training_data/philly_data_training.csv) | **Microsoft**, 552 Nodes, 2,490 GPUs | [Philly-GAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/generated_data/synthetic_data_gan_philly.csv) | [Philly-CTGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/generated_data/synthetic_data_ctgan_philly.csv) | [Philly-TVAE](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/generated_data/synthetic_data_tvae_philly.csv) | [Philly-GC](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/generated_data/synthetic_data_gc_philly.csv) | [Philly-CGAN](https://github.com/DIR-LAB/Gen-Parallel-Workloads/blob/main/Philly/generated_data/synthetic_data_cg_philly.csv)|
+
 
 ## Structure
 
