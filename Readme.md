@@ -58,9 +58,11 @@ Each trace includes several key columns such as:
 Please cite the following paper if you use this dataset or repository in your research:
 
 ```bibtex
-@article{SoundarRaj2024Empirical,
+@inproceedings{SoundarRaj2024Empirical,
   title={An Empirical Study of Machine Learning-based Synthetic Job Trace Generation Methods},
   author={Monish Soundar Raj and Thomas MacDougall and Di Zhang and Dong Dai},
-  year={2024}
+  booktitle={Workshop on Job Scheduling Strategies for Parallel Processing},
+  year={2024},
+  organization={Springer}
 }
 ```
